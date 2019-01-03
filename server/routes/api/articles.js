@@ -79,4 +79,4 @@ router.delete('/:id', (req, res, next) => {
     .catch(next);
 });
 
-model.exports = router;
+module.exports = router;
